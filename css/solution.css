@@ -1,0 +1,109 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ffffff, #a0e8ff, #d0f7ff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.custom-image {
+  width: 155%;  /* Ebeveyn konteynerin genişliğine göre ayarlanır */
+  max-width: 8200px;  /* Görselin maksimum genişliği */
+  height: auto;  /* Orantılı yükseklik */
+  margin-left: -136px; 
+}
+
+
+.image-container {
+  width: 100%; /* Genişliği artırmak için */
+  max-width: 800px; /* Veya istediğiniz başka bir genişlik */
+}
+
+.device-image {
+  width: 100%; /* Ebeveyn konteynerin genişliğine göre ayarlanır */
+  max-width: 400px; /* Maksimum genişliği ayarlayın */
+  height: auto; /* Orantılı yükseklik */
+}
+
+.col-lg-6.pc-mobil {
+  margin-top: -210px;  /* Üst marjı azaltarak görseli yukarı taşır */
+  
+}
+
+
+
+
+/* Navbar Stil Ayarları */
+.navbar {
+  position: -webkit-sticky; /* Safari için */
+    position: sticky;
+    top: 0; /* Ekranın en üstüne sabitle */
+    background-color: #fff; /* Navbar arkaplan rengi */
+    z-index: 1000; /* Üst katmanda görünsün */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+  
+}
+
+.container {
+  display: flex; /* Flexbox ile hizalama */
+  align-items: center; /* Dikey ortalama */
+  justify-content: center; /* Yatay ortalama */
+}
+
+/* Logo ve Başlık İçin Ortala */
+.logo-container {
+  display: flex; /* Flexbox kullanarak içerikleri yan yana dizme */
+  align-items: center; /* Dikey ortalama */
+}
+
+.logo {
+  height: 180px; /* Logo yüksekliği */
+  margin-right: 15px; /* Logo ile başlık arasındaki boşluk */
+}
+
+.navbar-title {
+  font-size: 24px; /* Başlık boyutu */
+  font-weight: bold; /* Kalın yazı */
+  color: #333; /* Yazı rengi */
+}
+
+/* Logo Div Ayarları */
+.logo-container {
+  padding: 5px; /* İç boşluk */
+  height: 70px; /* Yükseklik */
+}
+
+.profile-img {
+  width: 300px; /* Resmin genişliğini ayarlayın */
+  height: auto; /* Orantılı yükseklik için otomatik ayarlayın */
+  border-radius: 15%; /* İsterseniz resme yuvarlak bir görünüm ekleyin */
+  margin-top: 20px; /* Üstte biraz boşluk bırakın */
+}
+
+
+
+.düzeltme{
+  width: 440px;
+  
+}
